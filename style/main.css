@@ -24,9 +24,15 @@
   opacity: 1;
 }
 
-.project-container {
+.projects{
   display: grid;
-  grid-template-columns: 1f 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.project-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .prj-img {

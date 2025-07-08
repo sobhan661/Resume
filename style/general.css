@@ -1,5 +1,5 @@
 @font-face {
-  font-family: B-Nazanin;
+  font-family: 'B-Nazanin';
   src: url(../fonts/B-NAZANIN.TTF) format('truetype');
   font-weight: normal;
   font-style: normal;
@@ -13,15 +13,13 @@
   --color-soft-beige: #D8D2CB;  /* Soft beige for subtle backgrounds or borders */
 }
 
-head {
-  font-family: B-Nazanin, Tahoma, sans-serif;
+html {
+  font-family: 'B-Nazanin', Tahoma, sans-serif;
 }
 
 body {
-  font-family: B-Nazanin, Tahoma, sans-serif;
   background-color: var(--color-background);
   color: var(--color-dark-base);
-  font-family: 'BNazanin', Tahoma, Arial, sans-serif;
   line-height: 1.6;
   direction: rtl;
   text-align: right;
