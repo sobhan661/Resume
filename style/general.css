@@ -15,6 +15,7 @@
 
 html {
   font-family: 'B-Nazanin', Tahoma, sans-serif;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -40,23 +41,9 @@ a:hover {
   color: var(--color-accent);
 }
 
-button {
-  background-color: var(--color-muted-teal);
-  border: none;
-  padding: 0.6em 1.2em;
-  border-radius: 6px;
-  transition: background-color 0.3s ease;
-}
-
-button:hover {
-  background-color: var(--color-accent);
-  color: var(--color-background);
-}
-
 section {
   background-color: var(--color-soft-beige);
   padding: 2rem;
   margin-bottom: 1.5rem;
   border-radius: 8px;
-  
 }
