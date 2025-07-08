@@ -1,0 +1,64 @@
+@font-face {
+  font-family: B-Nazanin;
+  src: url(../fonts/B-NAZANIN.TTF) format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {
+  --color-dark-base: #344E41;   /* Dark greenish blue for headings/text */
+  --color-background: #F3F4F6;  /* Light gray for backgrounds */
+  --color-muted-teal: #A7C4BC;  /* Muted teal for secondary elements */
+  --color-accent: #F7B32B;      /* Warm gold accent for highlights/buttons */
+  --color-soft-beige: #D8D2CB;  /* Soft beige for subtle backgrounds or borders */
+}
+
+head {
+  font-family: B-Nazanin, Tahoma, sans-serif;
+}
+
+body {
+  font-family: B-Nazanin, Tahoma, sans-serif;
+  background-color: var(--color-background);
+  color: var(--color-dark-base);
+  font-family: 'BNazanin', Tahoma, Arial, sans-serif;
+  line-height: 1.6;
+  direction: rtl;
+  text-align: right;
+}
+
+h1, h2, h3 {
+  color: var(--color-dark-base);
+}
+
+a, button {
+  color: inherit;
+  cursor: pointer;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+a:hover {
+  color: var(--color-accent);
+}
+
+button {
+  background-color: var(--color-muted-teal);
+  border: none;
+  padding: 0.6em 1.2em;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: var(--color-accent);
+  color: var(--color-background);
+}
+
+section {
+  background-color: var(--color-soft-beige);
+  padding: 2rem;
+  margin-bottom: 1.5rem;
+  border-radius: 8px;
+  
+}
