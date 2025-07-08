@@ -27,22 +27,15 @@
   color: var(--color-accent)
 }
 
-.pic-section {
+.hero {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
-  
+    align-items: center;
 }
 
 .pic {
   height: 500px;
   width: 300px;
   object-fit: cover;
-}
-
-.name {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
