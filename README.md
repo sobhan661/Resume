@@ -33,15 +33,17 @@ This is my **second web development project** after completing a 6-hour web deve
 2. **مهارت ها (Skills)** - Technical skills with proficiency percentages
 3. **پروژه ها (Projects)** - Showcase of completed projects
 4. **استخدامم کن (Hire Me)** - Contact information and social links
+1. **تحصیلات (Education)** - Education & Uni information
 
 ## 🎨 Color Palette
 
 ```css
---color-dark-base: #344E41;   /* Dark greenish blue */
---color-background: #F3F4F6;  /* Light gray */
---color-muted-teal: #A7C4BC;  /* Muted teal */
---color-accent: #F7B32B;      /* Warm gold accent */
---color-soft-beige: #D8D2CB;  /* Soft beige */
+--color-dark-base: #0F172A;      /* Deep slate for backgrounds */
+--color-background: #1E293B;     /* Slightly lighter slate */
+--color-muted-teal: #64748B;     /* Muted blue-gray for text */
+--color-accent: #3B82F6;         /* Vibrant blue for CTAs */
+--color-soft-beige: #334155;     /* Dark card backgrounds */
+--color-highlight: #06B6D4;      /* Cyan for highlights */
 ```
 
 ## 🚀 Skills Showcased
@@ -59,7 +61,8 @@ Resume/
 ├── style/
 │   ├── general.css        # Global styles and variables
 │   ├── header.css         # Header and navigation styles
-│   └── main.css           # Main content styles
+│   ├── main.css           # Main content styles
+|   ├── footer.css         # Footer content styles
 ├── img/                   # Profile images
 ├── icons/                 # Skill and social media icons
 ├── prj-img/              # Project screenshots
@@ -116,8 +119,8 @@ This project represents my growth as a web developer and includes:
 ## 🤝 Connect With Me
 
 - **📧 Email:** sobhantheimpaler@gmail.com
-- **📱 Telegram:** [@Sobhan_Ashrafi](https://t.me/Sobhan_Ashrafi)
-- **📷 Instagram:** [@Sobhashrafi](https://instagram.com/Sobhashrafi)
+- **📱 Telegram:** [@OldSobhan](https://t.me/OldSobhan)
+- **📷 Instagram:** [@oldsobi](https://instagram.com/oldsobi)
 - **🐦 Twitter:** [@SmileLittleBro](https://twitter.com/SmileLittleBro)
 - **💻 GitHub:** [sobhan661](https://github.com/sobhan661)
 
