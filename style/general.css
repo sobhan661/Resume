@@ -6,11 +6,12 @@
 }
 
 :root {
-  --color-dark-base: #344E41;   /* Dark greenish blue for headings/text */
-  --color-background: #F3F4F6;  /* Light gray for backgrounds */
-  --color-muted-teal: #A7C4BC;  /* Muted teal for secondary elements */
-  --color-accent: #F7B32B;      /* Warm gold accent for highlights/buttons */
-  --color-soft-beige: #D8D2CB;  /* Soft beige for subtle backgrounds or borders */
+  --color-dark-base: #0F172A;      /* Deep slate for backgrounds */
+  --color-background: #1E293B;     /* Slightly lighter slate */
+  --color-muted-teal: #64748B;     /* Muted blue-gray for text */
+  --color-accent: #3B82F6;         /* Vibrant blue for CTAs */
+  --color-soft-beige: #334155;     /* Dark card backgrounds */
+  --color-highlight: #06B6D4;      /* Cyan for highlights */
 }
 
 html {
@@ -24,6 +25,7 @@ body {
   line-height: 1.6;
   direction: rtl;
   text-align: right;
+  padding-top: 30px;
 }
 
 h1, h2, h3 {

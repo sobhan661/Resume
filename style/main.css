@@ -1,9 +1,8 @@
 .skills {
   display: flex;
   flex-direction: row;
-  align-items: center;
+  flex-wrap: wrap;
   justify-content: space-evenly;
-  gap: 0;
 }
 
 .skill-container {
@@ -64,6 +63,17 @@
 
 .prj-img {
   height: 300px;
+}
+
+.education-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+}
+
+.education-container p {
+  margin-top: 0;
+  opacity: 0.5;
 }
 
 .hire-me-container {
